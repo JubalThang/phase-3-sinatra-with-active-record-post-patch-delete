@@ -13,6 +13,7 @@ gem "activerecord", "~> 6.1"
 gem "sinatra-activerecord"
 
 # Rack middleware. Used specifically for parsing the request body into params.
+# add pry and check what params is parsing 
 # https://github.com/rack/rack-contrib
 gem "rack-contrib", "~> 2.3"
 
